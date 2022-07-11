@@ -20,10 +20,5 @@ int print_base16_upper_lower(va_list arg, char *representation);
 int loop_format(va_list arg, const char *string);
 int call_function_manager(char aux, va_list arg);
 int check_percent(int *flag, char aux);
-unsigned int convert_s(va_list args, buffer_t *output,
-		unsigned char flags, int wid, int prec, unsigned char len);
-unsigned int convert_S(va_list args, buffer_t *output,
-		unsigned char flags, int wid, int prec, unsigned char len);
-
 
 #endif
